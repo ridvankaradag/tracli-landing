@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233.356 91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cb3837;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="npm" transform="translate(-109.571 -485.219)">
+    <path id="path4951" class="cls-1" d="M174.443,576.219V563.2H109.571V485.219H342.928V563.2H226.249v13.019Z"/>
+    <path id="path4949" class="cls-2" d="M213.636,563.2V550.091h25.678V498.329H187.6V563.2Z"/>
+    <path id="path4947" class="cls-1" d="M213.636,511.348H226.25v25.678H213.636Z"/>
+    <path id="path4945" class="cls-2" d="M148.314,550.091V511.348h13.064v38.743h13.064V498.329H122.73v51.762Z"/>
+    <path id="path2998" class="cls-2" d="M278.057,550.091V511.348h13.064v38.743h13.064V511.348H317.25v38.743h13.064V498.329H252.381v51.762Z"/>
+  </g>
+</svg>

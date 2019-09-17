@@ -1,0 +1,40 @@
+<svg viewBox="0 0 987 380">
+  <defs>
+    <style>
+      .cls-1-logo {
+        stroke: #000;
+      }
+
+      .cls-2-logo, .cls-4-logo {
+        fill: #fff;
+      }
+
+      .cls-2-logo {
+        font-size: 200px;
+        font-family: RobotoMono-Regular, Roboto Mono;
+        letter-spacing: 0.015em;
+      }
+
+      .cls-3-logo {
+        fill: #000;
+      }
+
+      .cls-5-logo {
+        stroke: none;
+      }
+
+      .cls-6-logo {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(-842.002 657)">
+    <g id="Group_1" data-name="Group 1" transform="translate(441 -1027)">
+      <g id="Rectangle_1" data-name="Rectangle 1" class="cls-1-logo" transform="translate(1008 370)">
+        <rect class="cls-5-logo" width="380" height="380"/>
+        <rect class="cls-6-logo" x="0.5" y="0.5" width="379" height="379"/>
+      </g>
+      <text id="_._tracli" data-name="./tracli" class="cls-2-logo" transform="translate(401.002 410.999)"><tspan class="cls-3-logo" x="0" y="210">./</tspan><tspan class="cls-4-logo" y="210">tracli</tspan></text>
+    </g>
+  </g>
+</svg>

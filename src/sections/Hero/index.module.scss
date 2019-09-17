@@ -1,0 +1,92 @@
+.hero {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  clip-path: polygon(50% 0%, 100% 0, 100% 85%, 75% 100%, 25% 100%, 0 85%, 0 0);
+}
+
+.mask {
+  background-image: linear-gradient(
+    to right bottom,
+    #211e8c,
+    rgba(135, 50, 201, 0.9)
+  );
+  flex: 1;
+}
+
+.row {
+  display: flex;
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+  }
+}
+
+.left {
+  color: #fff;
+  width: calc(50% - 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @media screen and (max-width: 700px) {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+.links {
+  display: flex;
+  width: 100%;
+
+  @media screen and (max-width: 700px) {
+    justify-content: center;
+  }
+
+  & svg {
+    height: 50px;
+    margin: 0 15px;
+  }
+}
+
+.right {
+  width: calc(50% - 10px);
+  flex: 1;
+  color: #fff;
+  @media screen and (max-width: 700px) {
+    width: 100%;
+  }
+}
+.terminal {
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  border: 2px solid #737373;
+  margin: 0 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 3px 8px 12px #0000004a;
+  font-family: monospace;
+
+  @media screen and (max-width: 700px) {
+    width: auto;
+  }
+
+  &__command {
+    color: #fff;
+  }
+
+  &__task {
+    color: yellow;
+  }
+
+  &__date {
+    color: #aeaeae;
+  }
+
+  &__status {
+    color: blue;
+  }
+}

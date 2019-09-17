@@ -1,0 +1,28 @@
+.header {
+}
+
+.logo {
+  text-decoration: none;
+
+  & > svg {
+    height: 50px;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & > a {
+    text-decoration: none;
+    color: #fff;
+
+    &:not(.logo) {
+      transition: 0.2s;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.layout {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1rem 0;
+
+  @media screen and (max-width: 1024px) {
+    max-width: 90%;
+  }
+}
